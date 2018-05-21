@@ -1,0 +1,25 @@
+{
+  "name": "image-hoster",
+  "version": "1.0.0",
+  "description": "Custom AWS S3 Image hoster. Allows to upload images to your own S3 bucket using an AWS Lambda function as the API gateway.",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.238.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrToph/image-hoster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrToph/image-hoster/issues"
+  },
+  "homepage": "https://github.com/MrToph/image-hoster#readme"
+}
