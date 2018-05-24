@@ -16,7 +16,7 @@ module.exports.requestUploadURL = (event, context, callback) => {
     });
   }
 
-  const fileName = `${uuidv4()}-${params.name}`;
+  const fileName = `${uuidv4()}`;
   const s3Params = {
     Bucket: "image-hoster",
     Key: fileName
